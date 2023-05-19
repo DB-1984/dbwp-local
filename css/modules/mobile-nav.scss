@@ -1,0 +1,24 @@
+@import "media-queries";
+
+.collapsing,
+.collapse,
+.show {
+    -webkit-transition: none;
+    transition: none;
+}
+
+nav#navbar_top.collapsed {
+
+    @include bs-mobile {
+        background-color: #3c4143;
+        transition: background-color 0.5s ease;
+        padding-bottom: 20px;
+    }
+
+    @include bs-tablet {
+        background-color: #3c4143;
+        transition: background-color 0.5s ease;
+        padding-bottom: 40px;
+    }
+
+}
