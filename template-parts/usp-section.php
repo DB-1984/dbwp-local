@@ -4,6 +4,48 @@
   </div>
 </div>
 
+<div class="container usp-three-col" data-aos="fade-up">
+    <div class="row">
+      <div class="col-md">
+        <div class="card">
+          <div class="card-header" data-toggle="collapse" data-target="#collapse1">
+            Column 1
+          </div>
+          <div id="collapse1" class="collapse show">
+            <div class="card-body">
+              Content for column 1
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <div class="card-header" data-toggle="collapse" data-target="#collapse2">
+            Column 2
+          </div>
+          <div id="collapse2" class="collapse show">
+            <div class="card-body">
+              Content for column 2
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <div class="card-header" data-toggle="collapse" data-target="#collapse3">
+            Column 3
+          </div>
+          <div id="collapse3" class="collapse show">
+            <div class="card-body">
+              Content for column 3
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 <!-- USP grid layout -->
 <div class="container" data-aos="fade-up">
   <div class="container usp text-center">
