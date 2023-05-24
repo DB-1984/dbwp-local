@@ -8,7 +8,7 @@
     <div class="row cover-content">
       <div class="col cover" data-aos="fade-right">
         <h1 class="display-4">Shape Your Digital Landscape</h1>
-          <p class="cover">Wordpress development and technical support with no surprises.</p>
+          <p class="cover">Wordpress development and technical support <span class="text-highlight">with no surprises</span>.</p>
           <a href="#"><button type="button" class="btn btn-primary px-4 mx-auto cta">Get In Touch</button></a>
       </div>
       <div class="col cover-image" data-aos="fade-left">

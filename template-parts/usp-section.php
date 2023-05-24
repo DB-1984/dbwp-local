@@ -1,6 +1,6 @@
 <div class="container main-intro">
   <div class="row main-intro">
-  <h2 class="display-4 intro text-center" data-aos="fade-down-right">Wordpress development & support, designed to <span class="highlight">fit your needs</span>, and <span class="highlight">your budget</span></h2>
+  <h2 class="display-4 intro text-center" data-aos="fade-down-right">Wordpress development & support, designed to <span class="highlight">fit your needs</span>, and <span class="h2-highlight">your budget</span></h2>
   </div>
 </div>
 

@@ -4,7 +4,7 @@ function theme_files() {
 
     wp_enqueue_script('main-js', get_theme_file_uri('/build/index.js'), array('jquery'), '1.0', true);
     wp_enqueue_style('black-ops-one', 'https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-    wp_enqueue_style('almarai', '//fonts.cdnfonts.com/css/almarai');
+    wp_enqueue_style('work-sans', '//fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,500;1,600;1,800&display=swap');
     wp_enqueue_style('main_styles', get_theme_file_uri('/build/style-index.css'));
     wp_enqueue_style('extra_styles', get_theme_file_uri('/build/index.css'));
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css', array(), '5.0.0-beta1', 'all' );
