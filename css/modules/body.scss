@@ -9,7 +9,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5:not(.usp-title),
 h6,
 label {
     font-family: 'Work Sans', sans-serif !important;
@@ -21,6 +21,13 @@ label {
     font-weight: 600;
     text-decoration: underline;
     text-decoration-thickness: 3px;
+}
+
+h5.usp-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fdbb0a;
+    margin-bottom: 10px;
 }
 
 .h2-highlight {
