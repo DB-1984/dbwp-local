@@ -46,7 +46,7 @@
                 <input type="file" name="file" class="form-control-file">
                 </div>
                 <div class="col-sm-6">
-                <button type="submit" class="btn btn-primary px-4 mx-auto contact">Submit</button>
+                <button type="submit" class="btn btn-primary px-4 mx-auto contact form-button">Submit</button>
                 </div>
             </form>
         </div>

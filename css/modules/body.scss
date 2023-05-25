@@ -185,8 +185,11 @@ button.btn.btn-primary.px-4.mx-auto {
     }
 }
 
-button.btn.btn-primary.px-4.mx-auto.cta {
-    margin-top: 0px;
+button.btn.btn-primary.px-4.mx-auto.cta,
+button.btn.btn-primary.px-4.mx-auto.form-button {
+    margin-top: 10px;
+    font-weight: 400 !important;
+    font-family: 'Work Sans', sans-serif !important;
 }
 
 div.card {
