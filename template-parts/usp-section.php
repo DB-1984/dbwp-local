@@ -9,7 +9,7 @@
       <div class="col-md">
         <div class="card">
           <div class="card-header" data-toggle="collapse" data-target="#collapse1">
-  
+           <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
         </div>
           <div id="collapse1" class="collapse show">
             <div class="card-body">

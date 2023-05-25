@@ -104,3 +104,12 @@ p.logo-font {
     }
 }
 
+#search-button > i{
+    @include below-desktop{
+        top: 25px!important
+    }
+    
+    @include desktop-up{
+        top: 10px
+    }
+}
