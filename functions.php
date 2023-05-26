@@ -81,7 +81,7 @@ function contact_form_submit() {
 
 function enqueue_contact_form_scripts() {
   // load the form JS
-  wp_enqueue_script('contact-form', get_template_directory_uri() . '/src/modules/contactForm.js', array('jquery'), '1.0', true);
+  wp_enqueue_script('contactForm', get_template_directory_uri() . '/src/modules/contactForm.js', array('jquery'), '1.0', true);
 
   // make PHP available to JS - admin-ajax.php path, and a nonce that is specific to this form
   wp_localize_script('contactForm', 'contactFormAjax', array(
@@ -91,3 +91,27 @@ function enqueue_contact_form_scripts() {
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_contact_form_scripts');
+
+/*
+OPTIONAL NONCE FOR SEARCH
+function enqueue_search_scripts() {
+  // Enqueue index.js
+  wp_enqueue_script('ajaxSearch', get_template_directory_uri() . '/src/modules/ajaxSearch.js', array('jquery'), '1.0', true);
+
+  // Localize the main-js script and pass the nonce value
+  wp_localize_script('ajaxSearch', 'ajaxSearchAjax', array(
+      'nonce' => wp_create_nonce('ajax-search-nonce')
+  ));
+}
+add_action('wp_enqueue_scripts', 'enqueue_search_scripts');*/
+ 
+/*function ajaxSearchResults($data) {
+  // Verify the nonce
+  $nonce = $data->get_header('X-WP-Nonce');
+  if (!wp_verify_nonce($nonce, 'ajax-search-nonce')) {
+    return array(
+      'error' => 'Unauthorized request.'
+    );
+  }
+  return $results;
+}*/

@@ -29,7 +29,7 @@
              <li class="nav-item"><a class="nav-link" href="#"> About Us </a></li>
              <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
              <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
-             <a class="mk-search-trigger mk-fullscreen-trigger" href="#">
+             <a class="mk-search-trigger mk-fullscreen-trigger">
             <div id="search-button"><i class="fa fa-search"></i></div>
             </a>
             </ul>
