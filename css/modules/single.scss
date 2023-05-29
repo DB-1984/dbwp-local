@@ -1,0 +1,65 @@
+@import "media-queries";
+
+$highlight: #fdbb0a;
+$accent: #484444;
+
+.single-post{
+    margin: 200px 0px 0px 0px;
+
+    .single-title-meta {
+        //position: absolute;
+        //top: 300px;
+        //border-radius: 8px;
+        //background: #ffffff70;
+        //padding: 5px;
+        //box-shadow: 5px 5px 80px #adacac66;
+
+        @include desktop-up{
+            max-width: 75%;
+        }
+
+        @include below-desktop{
+            max-width: 100%;
+        }
+    }
+
+hr {
+    border: none; /* remove the default border */
+    border-top: 2px solid black; /* set a custom border style */
+    margin: 10px 0; /* add some spacing around the line */
+    width: 50px;
+}
+
+
+        h1{
+            font-weight: 600;
+
+            @include desktop-up{
+                font-size: 5rem;
+                line-height: 5rem
+            }
+            @include below-desktop{
+                font-size: 2rem
+            }
+        }
+        .post-meta{
+            color: $highlight;
+            font-size: 1.9rem;
+        }
+    .post-excerpt{
+        font-size: 16px;
+    }
+}
+
+img.img-fluid.wp-post-image {
+    height: 400px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.single-post article{
+    @include desktop-up{
+        padding: 100px;
+    }
+}
