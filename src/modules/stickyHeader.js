@@ -36,4 +36,3 @@ function stickyHeader() {
 } 
 
 export default stickyHeader;
-
