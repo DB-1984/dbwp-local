@@ -115,3 +115,22 @@ add_action('wp_enqueue_scripts', 'enqueue_search_scripts');*/
   }
   return $results;
 }*/
+
+function custom_single_template($template) {
+  if (is_singular('post')) { // Check if it's a single post
+      $post_slug = get_post_field('post_name', get_queried_object_id()); // Get the post slug
+
+      // Check if the post slug matches the condition for using the alternative template
+      if ($post_slug === 'about-rest-apis') {
+          $alternative_template = locate_template(array('single-api.php')); // Locate the alternative template file
+
+          if (!empty($alternative_template)) {
+              return $alternative_template; // Use the alternative template file if it exists
+          }
+      }
+  }
+
+  return $template; // Use the default template if the condition is not met
+}
+add_filter('template_include', 'custom_single_template');
+
