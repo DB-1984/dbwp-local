@@ -6,55 +6,70 @@ $accent: #484444;
 .single-post{
     margin: 200px 0px 0px 0px;
 
-    p{
-        line-height: 2rem;
+    p:not(logo-font){
+        line-height: 2.5rem;
+        font-size: 1.1rem; 
+        font-weight: 300;
     }
 
     .header{
         margin-bottom: 200px;
     }
 
-    .single-title-meta {
-        //position: absolute;
-        //top: 300px;
-        //border-radius: 8px;
-        //background: #ffffff70;
-        //padding: 5px;
-        //box-shadow: 5px 5px 80px #adacac66;
-
-        @include desktop-up{
-            max-width: 75%;
-        }
-
-        @include below-desktop{
-            max-width: 100%;
-        }
-    }
-
 hr {
-    border: none; /* remove the default border */
-    border-top: 2px solid black; /* set a custom border style */
-    margin: 10px 0; /* add some spacing around the line */
+    border: none;
+    border-top: 2px solid black;
+    margin: 30px 0; 
     width: 50px;
 }
 
         h1{
-            font-weight: 600;
+            font-weight: 800;
 
             @include desktop-up{
                 font-size: 5rem;
-                line-height: 5rem
+                line-height: 4rem
             }
             @include below-desktop{
                 font-size: 2rem
             }
         }
         .post-meta{
-            color: $highlight;
+            display: block;
+            color: $accent;
             font-size: 1.9rem;
+            line-height: 1.9rem;
+            font-weight: 600;
+            width: 100%;
         }
+
     .post-excerpt{
-        font-size: 16px;
+        font-size: 2rem;
+        display: block;
+        padding: 30px;
+        line-height: 2.5rem;
+        font-weight: 400;
+
+        &:before, &:after{
+            content: '"';
+        }
+    }
+
+    .post-meta-heading{
+        color: $highlight;
+        font-weight: 300;
+
+        @include desktop-up{
+        font-size: 1.7rem;
+        }
+
+        @include below-desktop{
+        font-size: 1.3rem;
+        }
+
+        &:has(strong){
+            font-weight: 400!important;;
+        }
     }
 }
 

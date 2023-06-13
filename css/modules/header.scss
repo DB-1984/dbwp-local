@@ -11,6 +11,7 @@ li.nav-item a {
 a.nav-link {
     display: inline-block;
     position: relative;
+    font-weight: 300;
 
     &.nav-link:hover {
         color: $highlight;

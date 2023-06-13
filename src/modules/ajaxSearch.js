@@ -53,7 +53,7 @@ function ajaxSearch() {
             return '<div class="result"><a href="' + page.link + '">' + page.title.rendered + '</a></div>';
           }).join('');
 
-          resultsContainer.innerHTML = html;
+          resultsContainer.innerHTML += html;
         })
         .catch(function(error) {
           console.error(error);
