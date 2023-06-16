@@ -6,7 +6,7 @@
     <div class="container py-5 contact-form" data-aos="fade-up">
     <div class="row">
         <div class="col-md-10 mx-auto">
-            <h4>Get in touch!</h4>
+        <h4 id="form-message-heading">Get in touch!</h4>
             <form id="contact-form">
                 <div class="form-group row one">
                     <div class="col-sm-6">
@@ -55,9 +55,10 @@
             <button id="reset-button" class="btn btn-primary mx-auto contact">New Message</button>
         </div>
     </div>
+    </div>
+    </div> 
+   </div>
 </div>
-</div>    </div>
-  </div>
 </div>
 
 

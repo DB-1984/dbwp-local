@@ -4,6 +4,18 @@
     }
 }
 
+@mixin small-mobile-up{
+    @media(min-width:400px){
+        @content;
+    }
+}
+
+@mixin small-mobile-down{
+    @media(max-width:399px){
+        @content;
+    }
+}
+
 @mixin bs-tablet {
     @media (min-width: 576px) and (max-width: 991px){
         @content;

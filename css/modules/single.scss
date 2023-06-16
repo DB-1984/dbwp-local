@@ -6,70 +6,91 @@ $accent: #484444;
 .single-post{
     margin: 200px 0px 0px 0px;
 
-    p:not(logo-font){
+    p:not(.logo-font){
         line-height: 2.5rem;
         font-size: 1.1rem; 
-        font-weight: 300;
+        font-weight: 400;
+        @include small-mobile-down{
+            font-size: 1rem;
+            line-height: 2.2rem;
+        }
     }
 
     .header{
         margin-bottom: 200px;
     }
 
-hr {
-    border: none;
-    border-top: 2px solid black;
-    margin: 30px 0; 
-    width: 50px;
-}
-
-        h1{
-            font-weight: 800;
-
-            @include desktop-up{
-                font-size: 5rem;
-                line-height: 4rem
-            }
-            @include below-desktop{
-                font-size: 2rem
-            }
+    article{
+        @include desktop-up{
+            padding: 100px;
         }
-        .post-meta{
-            display: block;
-            color: $accent;
-            font-size: 1.9rem;
-            line-height: 1.9rem;
-            font-weight: 600;
-            width: 100%;
-        }
+    }
 
-    .post-excerpt{
-        font-size: 2rem;
+    hr {
+        border: none;
+        @include small-mobile-up{
+            margin-top: 30px;
+        }
+        border-top: 2px solid black;
+        width: 50px;
+    }
+
+    h1{
+        font-weight: 800;
+
+        @include small-mobile-up{
+            font-size: 5rem;
+            line-height: 4rem
+        }
+        
+        @include small-mobile-down{
+            font-size: 2.6rem;
+        }
+    }
+
+    .post-meta{
         display: block;
-        padding: 30px;
+        color: $accent;
+        font-size: 1.9rem;
+        line-height: 1.9rem;
+        font-weight: 600;
+        width: 100%;
+    }
+    
+    .post-excerpt{
+        display: block;
         line-height: 2.5rem;
         font-weight: 400;
 
         &:before, &:after{
             content: '"';
         }
+
+        @include small-mobile-up{
+            line-height: 2.5rem;
+            font-size: 2rem;
+            padding: 30px;
+        }
+
+        @include small-mobile-down{
+            line-height: 2.5rem;
+            font-size: 1.2rem;
+            padding: 20px;
+        }
     }
 
-    .post-meta-heading{
+    .post-meta-date{
         color: $highlight;
         font-weight: 300;
-
-        @include desktop-up{
-        font-size: 1.7rem;
-        }
-
-        @include below-desktop{
-        font-size: 1.3rem;
-        }
+        font-size: 1rem;
 
         &:has(strong){
             font-weight: 400!important;;
         }
+    }
+
+    .single-title-meta{
+        margin-top:30px;
     }
 }
 
@@ -78,10 +99,4 @@ img.img-fluid.wp-post-image {
     width: 100%;
     margin: 0 auto;
     display: block;
-}
-
-.single-post article{
-    @include desktop-up{
-        padding: 100px;
-    }
 }

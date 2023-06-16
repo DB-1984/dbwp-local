@@ -21,6 +21,11 @@ p.logo-font{
     font-family: 'Black Ops One';
 }
 
+.row>*{
+    padding-right: calc(var(--bs-gutter-x) * .8)!important;
+    padding-left: calc(var(--bs-gutter-x) * .8)!important;
+}
+
 .text-highlight {
     font-weight: 600;
     text-decoration: underline;

@@ -22,7 +22,7 @@
                     <h1 class="post-h1"><?php the_title(); ?></h1>
                     <hr>
                     <div class="row post-meta">
-                    <span class="post-meta-heading"><?php _e( 'Posted on', 'textdomain' ); ?> <strong><?php the_date(); ?></strong> </span></br>
+                    <span class="post-meta-date"><?php _e( 'Posted on', 'textdomain' ); ?> <strong><?php the_date(); ?></strong> </span></br>
                         <span class="post-excerpt"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></span>
                     </div>
                   </div>

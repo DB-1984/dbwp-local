@@ -6,7 +6,7 @@
         <input type="text" value="" placeholder="Search..." id="mk-fullscreen-search-input">
       </form>
       <div id="results-container">
-        <p>this will hold the results</p>
+        <p></p>
       </div>
     </div>
   </div>
