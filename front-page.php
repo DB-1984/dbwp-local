@@ -9,7 +9,7 @@
       <div class="col cover" data-aos="fade-right">
         <h1 class="display-4">Shape Your Digital Landscape</h1>
           <p class="cover">Wordpress development and technical support <span class="text-highlight">with no surprises</span>.</p>
-          <a href="#"><button type="button" class="btn btn-primary px-4 mx-auto cta">Get In Touch</button></a>
+          <a href="#"><button type="button" class="btn btn-primary px-4 mx-auto cta"><p>Get In Touch</p></button></a>
       </div>
       <div class="col cover-image" data-aos="fade-left">
           <img class="cover-image" src="wp-content\themes\dbwp\assets\cover-text-image.svg" height="auto"></a>

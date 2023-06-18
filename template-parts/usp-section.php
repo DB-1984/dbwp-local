@@ -5,46 +5,45 @@
 </div>
 
 <div class="container usp-three-col" data-aos="fade-up">
-    <div class="row">
-      <div class="col-md">
-        <div class="card">
-          <div class="card-header" data-toggle="collapse" data-target="#collapse1">
-           <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
+  <div class="row justify-content-center">
+    <div class="col-md">
+      <div class="card">
+        <div class="card-header" data-toggle="collapse" data-target="#collapse1">
+          <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
         </div>
-          <div id="collapse1" class="collapse show">
-            <div class="card-body">
-              <span class="text-hightlight">WordPress/Woocoommerce Support:</span> 
-            </div>
+        <div id="collapse1" class="collapse show">
+          <div class="card-body">
+            <span class="text-hightlight">WordPress/WooCommerce Support:</span> 
           </div>
         </div>
       </div>
-      <div class="col-md">
-        <div class="card">
-          <div class="card-header" data-toggle="collapse" data-target="#collapse2">
-  
+    </div>
+    <div class="col-md">
+      <div class="card">
+        <div class="card-header" data-toggle="collapse" data-target="#collapse2">
+          <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
         </div>
-          <div id="collapse2" class="collapse show">
-            <div class="card-body">
+        <div id="collapse2" class="collapse show">
+          <div class="card-body">
             <span class="text-hightlight">Site Auditing & Optimisation:</span>
-            </div>
           </div>
         </div>
       </div>
-      <div class="col-md">
-        <div class="card">
-          <div class="card-header" data-toggle="collapse" data-target="#collapse3">
- 
+    </div>
+    <div class="col-md">
+      <div class="card">
+        <div class="card-header" data-toggle="collapse" data-target="#collapse3">
+          <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
         </div>
-          <div id="collapse3" class="collapse show">
-            <div class="card-body">
+        <div id="collapse3" class="collapse show">
+          <div class="card-body">
             <span class="text-hightlight">Content Generation:</span>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
+</div>
 
 <!-- USP grid layout -->
 <div class="container" data-aos="fade-up">
@@ -62,7 +61,7 @@
         <div class="card">
           <div class="card-body">
           <h5 class="usp-title">Step 2 - Figuring it out</h5>
-            <p class="card-text">We'll take a look a get back to you with a <span class="text-highlight">no-obligation quote</span> (we might require some access to your site's code to do this.)</p>
+            <p class="card-text">We'll take a look a get back to you with a <span class="text-highlight">no-obligation quote</span> (we might require some access to your site's code to do this)</p>
           </div>
         </div>
       </div>
@@ -80,7 +79,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="usp-title">Step 4 - Checking in</h5>
-            <p class="card-text"><span class="text-highlight">We'll schedule a check-in with you</span> to make sure everything is still working as expected, and to see if there's anything else we might be able to assist with.</p>
+            <p class="card-text"><span class="text-highlight">We'll schedule a check-in with you</span> to make sure everything is still working as expected, and to see if there's anything else we might be able to assist with</p>
           </div>
         </div>
       </div>

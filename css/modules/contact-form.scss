@@ -6,12 +6,41 @@ $accent: #484444;
     padding: 10px !important
 }
 
+h2.display-4.form.intro{
+    text-decoration: underline;
+    text-decoration-thickness: 5px!important;
+    text-decoration-color: $background;
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
 .form-control {
     padding: 5px 7px 5px 7px !important
 }
 
+.row{
+    .contact-box{
+        padding-left: 0px!important;
+    }
+}
+
+input[type="file"] {
+    /* Your custom styles here */
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }  
+
 .success-message{
     color: #000;
+    font-size: 1.3rem;
+
+    i{
+        color: $highlight;
+    }
 }
 
 .form-control:focus {
@@ -81,6 +110,7 @@ i.fa-solid.fa-square-envelope {
     background-image: url(http://dbwppro.local/wp-content/uploads/2023/04/contact-cropped.jpg);
     background-size: cover;
     min-height: 200px;
+    background-position: 25% 40%;
 }
 
 .form-group.row.two,

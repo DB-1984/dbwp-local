@@ -8,6 +8,10 @@ li.nav-item a {
     color: white;
 }
 
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+
 a.nav-link {
     display: inline-block;
     position: relative;

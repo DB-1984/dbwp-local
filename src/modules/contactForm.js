@@ -1,7 +1,7 @@
 function contactForm() {
     var contactForm = document.getElementById('contact-form');
     var resetButton = document.getElementById('reset-button');
-    var formMessageHeading = document.getElementById('form-message-heading');
+    //lvar formMessageHeading = document.getElementById('form-message-heading');
   
     contactForm.addEventListener('submit', function(event) {
       event.preventDefault();
@@ -22,7 +22,7 @@ function contactForm() {
             var successMessage = document.querySelector('.success-message');
             successMessage.style.display = 'block';
             // Change H4 content
-            formMessageHeading.textContent = "Thanks!";
+            //formMessageHeading.textContent = "Thanks!";
           } else {
             throw new Error('Request failed');
           }
@@ -43,7 +43,7 @@ function contactForm() {
   
       // Show the form
       contactForm.style.display = 'block';
-      formMessageHeading.textContent = "Get in touch!";
+      //formMessageHeading.textContent = "Get in touch!";                             
       // Show other elements if needed
       var otherElements = document.querySelectorAll("body > div.colour-band.aos-init.aos-animate > div > h3");
       otherElements.forEach(function(element) {

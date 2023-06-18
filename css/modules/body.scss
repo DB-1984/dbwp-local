@@ -143,24 +143,19 @@ img.cover-image {
     }
 }
 
-.container.usp {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
 @media (min-width: 992px) {
     .row.cover-content {
         margin-right: 0px;
     }
 }
 
-button.btn.btn-primary.px-4.mx-auto {
+button.btn.btn-primary.px-4.mx-auto, button#reset-button {
     appearance: none;
     background-color: $highlight;
     border: 2px solid $highlight;
     border-radius: 5px !important;
     height: 50px;
-    line-height: 0.5 !important;
+    line-height: 0.5px !important;
     box-sizing: border-box;
     color: $background !important;
     cursor: pointer;
@@ -170,7 +165,7 @@ button.btn.btn-primary.px-4.mx-auto {
     margin-top: 20px;
     min-width: 0;
     outline: none;
-    padding: 16px 24px;
+    padding: 13px 24px;
     text-align: center;
     text-decoration: none;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
@@ -185,7 +180,6 @@ button.btn.btn-primary.px-4.mx-auto {
 
     &:hover {
         box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-        transform: translateY(-2px);
     }
 
     &:active {
@@ -194,11 +188,31 @@ button.btn.btn-primary.px-4.mx-auto {
     }
 }
 
-button.btn.btn-primary.px-4.mx-auto.cta,
-button.btn.btn-primary.px-4.mx-auto.form-button {
+button.btn.btn-primary.px-4.mx-auto.cta p,
+button.btn.btn-primary.px-4.mx-auto.form-button p, button#reset-button p{
     margin-top: 10px;
     font-weight: 400 !important;
     font-family: 'Work Sans', sans-serif !important;
+    position: relative; 
+
+    &:hover {
+        &:after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: -10px;
+            left: 0;
+            background-color: $accent; 
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+    }
+
+    &:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
 }
 
 div.card {
