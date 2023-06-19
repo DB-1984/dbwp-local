@@ -1,6 +1,6 @@
 function stickyHeader() {
 
-    jQuery(document).ready(function($) {
+    jQuery(document).ready(function ($) {
 
         var $navbar = $('#navbar_top');
         var navbarHeight = $navbar.outerHeight();
@@ -24,7 +24,7 @@ function stickyHeader() {
                 $navbar.removeClass('fixed').addClass('hidden');
             }
 
-            // Fade in the navbar as a sticky menu after scrolling down 50px
+            // Fade in the navbar as a sticky menu after scrolling down 
             if (scrollPosition > navbarHeight + 300) {
                 $navbar.removeClass('hidden').addClass('sticky');
             } else {
@@ -33,6 +33,6 @@ function stickyHeader() {
         });
     });
 
-} 
+}
 
 export default stickyHeader;

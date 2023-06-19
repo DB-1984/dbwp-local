@@ -6,10 +6,11 @@ $accent: #484444;
     padding: 10px !important
 }
 
-h2.display-4.form.intro{
+h2.display-4.form.intro {
     text-decoration: underline;
-    text-decoration-thickness: 5px!important;
+    text-decoration-thickness: 5px !important;
     text-decoration-color: $background;
+    font-size: 3rem;
     padding-top: 0px;
     padding-bottom: 25px;
 }
@@ -18,9 +19,9 @@ h2.display-4.form.intro{
     padding: 5px 7px 5px 7px !important
 }
 
-.row{
-    .contact-box{
-        padding-left: 0px!important;
+.row {
+    .contact-box {
+        padding-left: 0px !important;
     }
 }
 
@@ -32,13 +33,13 @@ input[type="file"] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }  
+}
 
-.success-message{
+.success-message {
     color: #000;
     font-size: 1.3rem;
 
-    i{
+    i {
         color: $highlight;
     }
 }

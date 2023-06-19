@@ -8,8 +8,15 @@ li.nav-item a {
     color: white;
 }
 
-.navbar-expand-lg .navbar-collapse{
+.navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
+}
+
+span.sos-span {
+    background: $highlight;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: 500;
 }
 
 a.nav-link {
@@ -40,7 +47,7 @@ a.nav-link {
     }
 }
 
-.navbar-nav{
+.navbar-nav {
     align-items: center;
 }
 
@@ -54,7 +61,7 @@ nav#navbar_top {
     background-color: #202528;
     transition: all 0.3s ease-in-out;
 
-    @include desktop-up{
+    @include desktop-up {
         height: 150px;
     }
 
@@ -72,8 +79,8 @@ nav#navbar_top {
         position: fixed;
         opacity: 1;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        
-        @include desktop-up{
+
+        @include desktop-up {
             height: 80px;
         }
     }
@@ -109,12 +116,25 @@ p.logo-font {
     }
 }
 
-#search-button > i{
-    @include below-desktop{
-        top: 25px!important
+#search-button {
+    @include below-desktop {
+        margin-bottom: 10px;
     }
-    
-    @include desktop-up{
-        top: 10px
+
+    i {
+        @include below-desktop {
+            top: 25px !important;
+        }
+
+        @include desktop-up {
+            top: 10px;
+        }
+    }
+}
+
+li.nav-item {
+    @include below-desktop {
+        list-style-type: none !important;
+        margin-bottom: 20px;
     }
 }
