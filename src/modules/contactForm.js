@@ -56,6 +56,6 @@ function contactForm() {
       contactForm.reset();
     });
   }
-  
-  contactForm();
-  
+  if (window.location.pathname === '/') {
+    contactForm();
+  }

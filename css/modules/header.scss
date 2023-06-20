@@ -17,12 +17,15 @@ span.sos-span {
     border-radius: 8px;
     padding: 8px;
     font-weight: 500;
+    &:hover{
+        color: $accent;
+    }
 }
 
 a.nav-link {
     display: inline-block;
     position: relative;
-    font-weight: 300;
+    font-weight: 400;
 
     &.nav-link:hover {
         color: $highlight;

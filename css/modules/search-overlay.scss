@@ -170,3 +170,16 @@ a#mk-fullscreen-close-button{
 div#results-container{
 	padding: 20px;
 }
+
+.result{
+	& a{
+		color: $background;
+		font-weight: 500;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+			text-decoration-color: $highlight;
+			text-decoration-thickness: 2px;
+		}
+	}
+}

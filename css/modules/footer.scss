@@ -1,3 +1,6 @@
+$highlight: #fdbb0a;
+$accent: #484444;
+
 .text-center.p-4 {
     background-color: #fff;
 }
@@ -8,4 +11,30 @@
 
 footer.text-center.text-lg-start.bg-white.text-muted {
     margin-top: 100px;
+}
+
+button#close-btn{
+    background-color: #fdbb0a;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+div#popup-container {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #1f25282e;
+    padding:10px;
+    
+    a{
+        font-weight: 500;
+        color: $accent;
+    }
+
+    p{
+        color: $accent;  
+    }
 }

@@ -5,9 +5,11 @@ import toggler from './modules/toggler.js'; // Burger animation
 import stickyHeader from "./modules/stickyHeader"; // Duh...
 import searchOverlay from "./modules/searchOverlay"; // Duh...
 import ajaxSearch from "./modules/ajaxSearch"; // Duh...
+import showPopup from "./modules/storageCookie";
 
 toggler();
 stickyHeader();
 AOS.init();
 searchOverlay();
 ajaxSearch();
+showPopup();

@@ -1,7 +1,5 @@
 <?php wp_footer(); ?>
 
-<footer>
-
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-white text-muted">
   <!-- Section: Social media -->
@@ -82,7 +80,7 @@
             <a href="#!" class="text-reset">Pricing</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Settings</a>
+            <a href="/privacy-policy" class="text-reset">Privacy</a>
           </p>
           <p>
             <a href="#!" class="text-reset">Orders</a>
@@ -114,13 +112,18 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-    © 2021 Copyright DBWP.pro
+    © Copyright <?php echo date_i18n('Y'); ?> DBWP.pro 
+
   </div>
   <!-- Copyright -->
-</footer>
-<!-- Footer -->
+<!-- Popup HTML -->
+<div id="popup-container">
+  <p>By proceeding through this website, you accept the terms of our <span class="text-highlight"><a href="privacy-policy.html">Privacy Policy</a></span></p>
+  <button id="close-btn">Close</button>  
+</div>
 
 </footer>
+<!-- Footer -->
 
 </body>
 </html> 
