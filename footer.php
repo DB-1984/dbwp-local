@@ -117,7 +117,7 @@
   </div>
   <!-- Copyright -->
 <!-- Popup HTML -->
-<div id="popup-container">
+<div id="popup-container" style="display: none">
   <p>By proceeding through this website, you accept the terms of our <span class="text-highlight"><a href="privacy-policy.html">Privacy Policy</a></span></p>
   <button id="close-btn">Close</button>  
 </div>

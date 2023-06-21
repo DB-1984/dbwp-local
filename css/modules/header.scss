@@ -12,12 +12,13 @@ li.nav-item a {
     justify-content: flex-end;
 }
 
-span.sos-span {
+span.plugin-span {
     background: $highlight;
     border-radius: 8px;
     padding: 8px;
     font-weight: 500;
-    &:hover{
+
+    &:hover {
         color: $accent;
     }
 }

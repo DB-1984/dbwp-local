@@ -80,14 +80,16 @@ function contact_form_submit() {
 }
 
 function enqueue_contact_form_scripts() {
-  // load the form JS
-  wp_enqueue_script('contactForm', get_template_directory_uri() . '/src/modules/contactForm.js', array('jquery'), '1.0', true);
+    if (is_front_page()) {
+    // load the form JS
+    wp_enqueue_script('contactForm', get_template_directory_uri() . '/src/modules/contactForm.js', array('jquery'), '1.0', true);
 
-  // make PHP available to JS - admin-ajax.php path, and a nonce that is specific to this form
-  wp_localize_script('contactForm', 'contactFormAjax', array(
-    'ajaxUrl' => esc_url( admin_url( "admin-ajax.php" ) ), 
-    'nonce' => wp_create_nonce('contact-form-nonce'), // becomes contactFormAjax.nonce in JS script
-  ));
+    // make PHP available to JS - admin-ajax.php path, and a nonce that is specific to this form
+    wp_localize_script('contactForm', 'contactFormAjax', array(
+      'ajaxUrl' => esc_url( admin_url( "admin-ajax.php" ) ), 
+      'nonce' => wp_create_nonce('contact-form-nonce'), // becomes contactFormAjax.nonce in JS script
+    ));
+  }
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_contact_form_scripts');

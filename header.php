@@ -27,7 +27,7 @@
           <div class="collapse navbar-collapse"  id="main_nav">
              <li class="nav-item"><a class="nav-link" href="<?php echo site_url('/blog'); ?>"> Blog </a></li>
              <li class="nav-item"><a class="nav-link" href="#"> About</a></li>
-             <li class="nav-item"><a class="nav-link" href="#"> <span class="sos-span">SOS! </span></a></li>  
+             <li class="nav-item"><a class="nav-link" href="#"> <span class="plugin-span">Plugins</span></a></li>  
              <a class="mk-search-trigger mk-fullscreen-trigger">
             <div id="search-button"><i class="fa fa-search"></i></div>
             </a>
