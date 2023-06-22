@@ -6,9 +6,9 @@ function ajaxSearch() {
 
   searchField.focus();
 
-  searchField.addEventListener('keyup', function() {
+  searchField.addEventListener('keyup', function () {
     clearTimeout(typingTimer);
-    typingTimer = setTimeout(function() {
+    typingTimer = setTimeout(function () {
       var searchQuery = searchField.value;
 
       // Check if the search query is empty
@@ -19,43 +19,43 @@ function ajaxSearch() {
 
       // Posts
       fetch('/wp-json/wp/v2/posts?search=' + searchQuery)
-        .then(function(response) {
+        .then(function (response) {
           if (response.ok) {
             return response.json();
           } else {
             throw new Error('Request failed.');
           }
         })
-        .then(function(data) {
+        .then(function (data) {
           resultsContainer.innerHTML = '';
 
-          var html = data.map(function(post) {
-            return '<div class="result"><a href="' + post.link + '">' + post.title.rendered + '</a></div>';
+          var html = data.map(function (post) {
+            return '<div class="result"> <i class="fa-solid fa-square-up-right"></i> <a href="' + post.link + '">' + post.title.rendered + '</a></div>';
           }).join('');
 
           resultsContainer.innerHTML = html;
         })
-        .catch(function(error) {
+        .catch(function (error) {
           console.error(error);
         });
 
       // Pages
       fetch('/wp-json/wp/v2/pages?search=' + searchQuery)
-        .then(function(response) {
+        .then(function (response) {
           if (response.ok) {
             return response.json();
           } else {
             throw new Error('Request failed.');
           }
         })
-        .then(function(data) {
-          var html = data.map(function(page) {
-            return '<div class="result"><a href="' + page.link + '">' + page.title.rendered + '</a></div>';
+        .then(function (data) {
+          var html = data.map(function (page) {
+            return '<div class="result"> <i class="fa-solid fa-square-up-right"></i> <a href="' + page.link + '">' + page.title.rendered + '</a></div>';
           }).join('');
 
           resultsContainer.innerHTML += html;
         })
-        .catch(function(error) {
+        .catch(function (error) {
           console.error(error);
         });
     }, doneTypingInterval);

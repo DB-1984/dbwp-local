@@ -121,10 +121,10 @@ $highlight: #fdbb0a;
 	}
 }*/
 
-a#mk-fullscreen-close-button{
+a#mk-fullscreen-close-button {
 	color: $accent;
 
-	&:hover{
+	&:hover {
 		color: $highlight;
 	}
 }
@@ -167,19 +167,29 @@ a#mk-fullscreen-close-button{
 	display: none !important;
 }
 
-div#results-container{
+div#results-container {
 	padding: 20px;
 }
 
-.result{
-	& a{
+.result {
+	display: flex;
+	align-items: center;
+
+	i {
+		padding-right: 5px;
+	}
+
+	& a {
 		color: $background;
-		font-weight: 500;
+		font-weight: 400;
 		text-decoration: none;
-		&:hover{
+		font-size: 2rem;
+		float: left;
+
+		&:hover {
 			text-decoration: underline;
 			text-decoration-color: $highlight;
-			text-decoration-thickness: 2px;
+			text-decoration-thickness: 3px;
 		}
 	}
 }
