@@ -1,7 +1,8 @@
 function contactForm() {
   var contactForm = document.getElementById('contact-form');
   var resetButton = document.getElementById('reset-button');
-  //lvar formMessageHeading = document.getElementById('form-message-heading');
+  var successDiv = document.querySelector("body > div.container.mx-auto.success");
+  var formParent = document.querySelector("body > div.container.contact-form-columns");
 
   contactForm.addEventListener('submit', function (event) {
     event.preventDefault();
@@ -17,10 +18,11 @@ function contactForm() {
       .then(function (response) {
         if (response.ok) {
           // Hide the form
-          contactForm.style.display = 'none';
+          formParent.style.display = 'none';
           // Show success message
           var successMessage = document.querySelector('.success-message');
-          successMessage.style.display = 'block';
+          //successMessage.style.display = 'block';
+          successDiv.style.display = 'block';
           // Change H4 content
           //formMessageHeading.textContent = "Thanks!";
         } else {
@@ -43,15 +45,13 @@ function contactForm() {
 
     // Show the form
     contactForm.style.display = 'block';
-    //formMessageHeading.textContent = "Get in touch!";                             
-    // Show other elements if needed
-    var otherElements = document.querySelectorAll("body > div.colour-band.aos-init.aos-animate > div > h3");
+    formParent.style.display = 'block';
+    /*var otherElements = document.querySelectorAll("body > div.colour-band.aos-init.aos-animate > div > h3");
     otherElements.forEach(function (element) {
       element.style.display = 'block';
-    });
+    });*/
     // Hide the success message
-    var successMessage = document.querySelector('.success-message');
-    successMessage.style.display = 'none';
+    successDiv.style.display = 'none';
 
     contactForm.reset();
   });

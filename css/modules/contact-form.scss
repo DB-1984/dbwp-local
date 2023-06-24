@@ -29,8 +29,12 @@ h2.display-4.form.intro {
     }
 }
 
-h1.form-h1 i{
-    color: $highlight;
+h1.form-h1 {
+    padding-bottom: 20px;
+
+    i {
+        color: $highlight;
+    }
 }
 
 input[type="file"] {
@@ -46,10 +50,13 @@ input[type="file"] {
 .success-message {
     color: #000;
     font-size: 1.1rem;
+    text-align: center;
+}
 
-    i {
-        color: $highlight;
-    }
+.success-icon i {
+    color: $highlight;
+    font-size: 8rem;
+    text-align: center;
 }
 
 .form-control:focus {
