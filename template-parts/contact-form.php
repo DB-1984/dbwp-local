@@ -1,9 +1,3 @@
-<div class="container">
-<h2 class="display-4 form intro text-center" data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="0">Get in touch!</h2>
-</div>
 <div class="container contact-form-columns">
   <div class="row one-third contact">
     <div class="col-md-4 contact-img">
@@ -12,6 +6,10 @@
     <div class="container py-5 contact-form" data-aos="fade-up">
     <div class="row">
         <div class="col-md-10 mx-auto">
+            <h1 class="form-h1" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"><u>Get in touch!</u> <i class="fa-regular fa-pen-to-square"></i></h1>
             <form id="contact-form">
                 <div class="form-group row one">
                     <div class="col-sm-6 contact-box">
@@ -56,7 +54,7 @@
             </form>
         </div>
         <div class="success-message" style="display:none">
-            <p><i class="fa-sharp fa-regular fa-thumbs-up"></i> Successfully submitted - <span class="text-highlight">we'll be in touch soon!</span></p>
+            <p><i class="fa-sharp fa-regular fa-thumbs-up"></i> Successfully submitted - we'll be in touch soon!</p>
             <button id="reset-button" class="btn btn-primary mx-auto contact"><p>New Message</p></button>
         </div>
     </div>

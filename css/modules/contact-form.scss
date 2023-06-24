@@ -29,6 +29,10 @@ h2.display-4.form.intro {
     }
 }
 
+h1.form-h1 i{
+    color: $highlight;
+}
+
 input[type="file"] {
     /* Your custom styles here */
     padding: 8px 16px;
@@ -41,7 +45,7 @@ input[type="file"] {
 
 .success-message {
     color: #000;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 
     i {
         color: $highlight;
