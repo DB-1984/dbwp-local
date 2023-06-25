@@ -9,9 +9,6 @@
   </head>
 
     <header>
-
-    <?php get_template_part('template-parts/overlay-search'); ?>
-
       <nav id="navbar_top" class="navbar navbar-expand-lg">
         <div class="container top-menu">
             <a class="navbar-brand" href="/">
@@ -36,4 +33,6 @@
         </div> <!-- container-fluid.// -->
       </nav>
     </header>
+
+    <?php get_template_part('template-parts/overlay-search'); ?>
 

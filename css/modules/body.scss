@@ -21,10 +21,10 @@ p.logo-font {
     font-family: 'Black Ops One';
 }
 
-.row>* {
+/*.row>* {
     padding-right: calc(var(--bs-gutter-x) * .8) !important;
     padding-left: calc(var(--bs-gutter-x) * .8) !important;
-}
+}*/
 
 .text-highlight {
     font-weight: 600;
@@ -62,7 +62,7 @@ p.cover {
     color: $highlight;
     font-weight: 300;
     font-size: 1.2rem;
-    width: 400px
+    width: auto
 }
 
 h1.display-4 {
@@ -111,6 +111,11 @@ h2.display-4.intro {
     @include bs-mobile {
         font-size: 28px
     }
+}
+
+.d-flex {
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 img.cover-image {
