@@ -14,7 +14,8 @@
             <a class="navbar-brand" href="/">
               <div class="logo-vector"><p class="logo-font">]}</p>
                 <!--img src="wp-content\themes\dbwp\assets\logo.svg" alt="DBWP" style="width:45px" height="auto"-->
-              </div></a>
+              </div>
+            </a>
               <div class="toggle-menu" data-toggle-menu data-bs-toggle="collapse" data-bs-target="#main_nav">
                 Toggle menu
                 <span class="menu__bar"></span>

@@ -18,13 +18,13 @@ label {
 }
 
 p.logo-font {
-    font-family: 'Black Ops One';
+    font-family: 'Black Ops One' !important;
 }
 
-/*.row>* {
+.row>* {
     padding-right: calc(var(--bs-gutter-x) * .8) !important;
     padding-left: calc(var(--bs-gutter-x) * .8) !important;
-}*/
+}
 
 .text-highlight {
     font-weight: 600;
@@ -62,11 +62,15 @@ p.cover {
     color: $highlight;
     font-weight: 300;
     font-size: 1.2rem;
-    width: auto
+    width: auto;
+
+    @media(max-width:767px){
+        max-width: 350px;
+    }
 }
 
 h1.display-4 {
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 500;
     letter-spacing: -2.5px;
     color: white !important;
@@ -77,7 +81,7 @@ h1.display-4 {
     }
 
     @include bs-tablet {
-        font-size: 90px;
+        font-size: 80px;
     }
 }
 
@@ -86,14 +90,18 @@ h1.display-4 {
     background-position: center;
     width: 100%;
     background-position-y: 0px;
+    background-repeat: space;
+    padding-top:160px; 
+    padding-bottom: 80px;
 
-    @include desktop-up {
-        padding-bottom: 75px;
-    }
+        @include below-desktop{
+            background-position-y: -10%;
+            padding-bottom: 65px;
+            }
 
-    @media(min-width:320px) and (max-width: 991px) {
-        background-position: 25%;
-    }
+        @media(max-width: 767px){
+            background-position-x: 45%;;
+        }
 }
 
 h2.display-4.intro {
@@ -105,7 +113,7 @@ h2.display-4.intro {
     }
 
     @include below-desktop {
-        line-height: 3rem !important;
+        line-height: 2.5rem !important;
     }
 
     @include bs-mobile {
@@ -131,20 +139,10 @@ img.cover-image {
     }
 }
 
-.col.cover {
-    padding-bottom: 100px;
-
-    @include bs-mobile {
-        padding-top: 50px;
-    }
-}
-
-.col.cover-image {
-    text-align: center;
-
-    @include bs-tablet {
-        padding-top: 0px;
-        margin-bottom: 80px;
+.col-md-6.d-flex.cover-image{
+    @media(max-width: 767px){
+        justify-content: center;
+        padding-top: 45px;
     }
 }
 
