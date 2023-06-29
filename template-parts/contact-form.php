@@ -1,16 +1,12 @@
-<div class="container contact-form-columns">
+<div class="container contact-form-columns" id="contact-form-anchor" style="scroll-margin-top: 200px">
   <div class="row one-third contact">
-    <div class="col-md-4 contact-img">
-    </div>
-    <div class="col-md-8 two-thirds form-image">
+    <div class="col-md-12 two-thirds form-image">
     <div class="container py-5 contact-form" data-aos="fade-up">
     <div class="row">
         <div class="col-md-10 mx-auto">
-            <h1 class="form-h1" data-aos="fade-zoom-in"
-            data-aos-easing="ease-in-back"
-            data-aos-delay="300"
-            data-aos-offset="0">Get in touch!</h1>
             <form id="contact-form">
+            <h1 class="form-h1" data-aos="fade-down">
+            Get in touch!</h1>
                 <div class="form-group row one">
                     <div class="col-sm-6 contact-box">
                         <label for="name"></label>
@@ -61,9 +57,6 @@
 </div>
 
 <div class="container mx-auto success" style="display:none">
-  <div class="row success-img">
-    
-  </div>
   <div class="success-message">
     <div class="image-success">
         <img src="wp-content/uploads/2023/06/thank-you-no-bg.png" class="img-fluid">
