@@ -30,17 +30,15 @@ h2.display-4.form.intro {
 }
 
 h1.form-h1 {
-    padding-bottom: 20px;
-
-    i {
-        color: $highlight;
-    }
+    margin-bottom: 20px;
+    width: fit-content;
+    text-decoration: underline;
+    text-decoration-color: $highlight;
 }
 
 input[type="file"] {
-    /* Your custom styles here */
-    padding: 8px 16px;
-    background-color: #f1f1f1;
+    padding: 20px 0px 10px 0px;
+    font-family: 'Work Sans', sans-serif;
     color: #333;
     border: none;
     border-radius: 4px;
@@ -51,12 +49,14 @@ input[type="file"] {
     color: #000;
     font-size: 1.1rem;
     text-align: center;
+     i {
+        color: $highlight;
+        text-align: center;
+    }
 }
 
-.success-icon i {
-    color: $highlight;
-    font-size: 8rem;
-    text-align: center;
+.image-success img{
+    padding-bottom: 40px;
 }
 
 .form-control:focus {
@@ -99,7 +99,19 @@ textarea.form-control:focus {
 
 }
 
-.contact-form-columns {
+button.form-button{
+    min-width: 100%!important;
+    p{
+        max-width: fit-content;
+        display: inherit;
+    }
+}
+
+.container.mx-auto.success{
+    padding: 45px;
+}
+
+.contact-form-columns, .container.mx-auto.success {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
@@ -122,11 +134,18 @@ i.fa-solid.fa-square-envelope {
     padding-top: 10px;
 }
 
+.form-image{
+    @media(max-width: 767px){
+        margin-top: -25px!important;
+    }
+}
+
 .col-md-4.contact-img {
     background-image: url(http://dbwppro.local/wp-content/uploads/2023/04/contact-cropped.jpg);
-    background-size: cover;
+    background-size: contain;
     min-height: 200px;
-    background-position: 25% 40%;
+    background-position: 50%;
+    background-repeat: no-repeat;
 }
 
 .form-group.row.two,

@@ -46,11 +46,7 @@ function contactForm() {
     // Show the form
     contactForm.style.display = 'block';
     formParent.style.display = 'block';
-    /*var otherElements = document.querySelectorAll("body > div.colour-band.aos-init.aos-animate > div > h3");
-    otherElements.forEach(function (element) {
-      element.style.display = 'block';
-    });*/
-    // Hide the success message
+      // Hide the success message
     successDiv.style.display = 'none';
 
     contactForm.reset();

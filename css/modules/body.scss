@@ -62,11 +62,7 @@ p.cover {
     color: $highlight;
     font-weight: 300;
     font-size: 1.2rem;
-    width: auto;
-
-    @media(max-width:767px){
-        max-width: 350px;
-    }
+    max-width: 350px;
 }
 
 h1.display-4 {
@@ -224,10 +220,6 @@ a.btn.btn-primary p {
 
 div.card {
     border: none !important;
-}
-
-.success-message {
-    color: white;
 }
 
 @media (min-width: 1200px) {

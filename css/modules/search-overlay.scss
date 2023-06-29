@@ -11,7 +11,7 @@ $highlight: #fdbb0a;
 	left: 0;
 	opacity: 0;
 	visibility: hidden;
-	background-color: #f1f1f1;
+	background-color: #f1f1f1ed;
 	text-align: center;
 	transition: all ease-in-out .25s;
 	z-index: 9999;
@@ -86,8 +86,8 @@ $highlight: #fdbb0a;
 	.mk-fullscreen-close {
 		position: absolute;
 		z-index: 99999999;
-		right: 50px;
-		top: 50px;
+		right: 60px;
+		top: 60px;
 		font-size: 26px;
 		transition: transform ease-out .2s;
 		transform: rotate(0deg);
@@ -114,12 +114,6 @@ $highlight: #fdbb0a;
 .mk-fullscreen-search-overlay .mk-fullscreen-close:visited {
 	color: #2c2c2c;
 }
-
-/*@media(max-width: 991px) {
-	a[class*="desktop-only"] {
-		display: none !important;
-	}
-}*/
 
 a#mk-fullscreen-close-button {
 	color: $accent;
@@ -168,7 +162,7 @@ a#mk-fullscreen-close-button {
 }
 
 div#results-container {
-	padding: 20px;
+	padding: 30px;
 }
 
 .result {

@@ -1,4 +1,4 @@
-function ajaxSearch() {
+function searchAPI() {
   var searchField = document.querySelector('#mk-fullscreen-search-input');
   var resultsContainer = document.querySelector('#results-container');
   var typingTimer;
@@ -30,7 +30,7 @@ function ajaxSearch() {
           resultsContainer.innerHTML = '';
 
           var html = data.map(function (post) {
-            return '<div class="result"> <i class="fa-solid fa-square-up-right"></i> <a href="' + post.link + '">' + post.title.rendered + '</a></div>';
+            return '<div class="result"><a href="' + post.link + '">' + post.title.rendered + '</a></div>';
           }).join('');
 
           resultsContainer.innerHTML = html;
@@ -50,7 +50,7 @@ function ajaxSearch() {
         })
         .then(function (data) {
           var html = data.map(function (page) {
-            return '<div class="result"> <i class="fa-solid fa-square-up-right"></i> <a href="' + page.link + '">' + page.title.rendered + '</a></div>';
+            return '<div class="result"><a href="' + page.link + '">' + page.title.rendered + '</a></div>';
           }).join('');
 
           resultsContainer.innerHTML += html;
@@ -62,4 +62,4 @@ function ajaxSearch() {
   });
 }
 
-export default ajaxSearch;
+export default searchAPI;

@@ -23,7 +23,7 @@
                 <span class="menu__bar"></span>
               </div>
           <div class="collapse navbar-collapse"  id="main_nav">
-             <li class="nav-item"><a class="nav-link" href="<?php echo site_url('/blog'); ?>"> Blog </a></li>
+             <li class="nav-item"><a class="nav-link <?php if(is_single() || is_home() && !is_front_page()) : echo "active-link"; endif;?>" href="<?php echo site_url('/blog'); ?>"> Blog </a></li>
              <li class="nav-item"><a class="nav-link" href="#"> About</a></li>
              <li class="nav-item"><a class="nav-link" href="#"> <span class="plugin-span">Plugins</span></a></li>  
              <a class="mk-search-trigger mk-fullscreen-trigger">

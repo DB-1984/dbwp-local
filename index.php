@@ -1,6 +1,5 @@
 <?php get_header(); ?>  
 <body <?php body_class(); ?>>
-
 <div class="row blog-index">
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="col-md-4">
