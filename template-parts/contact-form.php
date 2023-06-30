@@ -5,8 +5,9 @@
     <div class="row">
         <div class="col-md-10 mx-auto">
             <form id="contact-form">
+            <span class="h1-form-bg">
             <h1 class="form-h1" data-aos="fade-down">
-            Get in touch!<i class="fa-solid fa-hand-point-down"></i> </h1>
+            Get in touch!</h1></span>
                 <div class="form-group row one">
                     <div class="col-sm-6 contact-box">
                         <label for="name"></label>
@@ -47,7 +48,7 @@
                 </div>
             </form>
         </div>
-    </div>
+        </div>
     </div>
     </div> 
    </div>
@@ -59,7 +60,7 @@
     <div class="image-success">
         <img src="wp-content/uploads/2023/06/thank-you-no-bg.png" class="img-fluid">
     </div>
-    <p>Successfully submitted <i class="fa-sharp fa-regular fa-thumbs-up"></i> - <span class="text-highlight">we'll be in touch soon!</span></p>
+    <p><i class="fa-sharp fa-regular fa-thumbs-up"></i> Successfully submitted - <span class="text-highlight">we'll be in touch soon!</span></p>
     <button id="reset-button" class="btn btn-primary mx-auto contact"><p>New Message</p></button>
   </div>
 </div>

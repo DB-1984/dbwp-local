@@ -111,10 +111,13 @@
   <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-    © Copyright <?php echo date_i18n('Y'); ?> DBWP.pro 
 
-  </div>
+    <div class="col-12">
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        &copy; <?php echo date_i18n('Y'); ?> DBWP.pro 
+      </div>
+    </div>
+
   <!-- Copyright -->
 <!-- Popup HTML -->
 <div id="popup-container" style="display: none">

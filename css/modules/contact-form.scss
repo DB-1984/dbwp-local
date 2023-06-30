@@ -33,13 +33,22 @@ h2.display-4.form.intro {
     }
 }
 
+span.h1-form-bg{
+    background: #202528;
+    display: block;
+    width: fit-content;
+    border-radius: 2px;
+}
+
 h1.form-h1 {
     width: fit-content;
     padding-bottom: 20px;
-    margin: 0px 0px 15px 0px!important;
-    padding: 0px!important; 
+    margin: 0px 0px 20px 0px!important;
+    padding: 10px; 
     text-decoration: underline;
+    border-radius: 3px;
     text-decoration-color: #fdbb0a;
+    color: white;
 
     @include desktop-up{
         font-size: 3rem;

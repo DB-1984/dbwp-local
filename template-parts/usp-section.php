@@ -5,43 +5,45 @@
 </div>
 
 <div class="container usp-three-col" data-aos="fade-up">
-  <div class="row justify-content-center">
-    <div class="col-md">
-      <div class="card">
-        <div class="card-header" data-toggle="collapse" data-target="#collapse1">
-          <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
-        </div>
-        <div id="collapse1" class="collapse show">
-          <div class="card-body">
-            <p class="card-text card-title">Wordpress & WooCommerce website development</p> <p>Represent your brand and/or e-commerce service with a <span class="text-highlight"> professional digital presence.</p>
+    <div class="row justify-content-center">
+      <div class="col-md">
+        <div class="card">
+          <div class="card-header" data-toggle="collapse" data-target="#collapse1">
+            <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
           </div>
-        </div>  
-      </div>
-    </div> 
-    <div class="col-md">
-      <div class="card">
-        <div class="card-header" data-toggle="collapse" data-target="#collapse1">
-          <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
+          <div id="collapse1" class="collapse show">
+            <div class="card-body">
+              <p class="card-text card-title">Wordpress & WooCommerce website development</p> <p>Represent your brand and/or e-commerce service with a <span class="text-highlight"> professional digital presence.</p>
+            </div>
+          </div>  
         </div>
-        <div id="collapse1" class="collapse show">
-          <div class="card-body">
-            <p class="card-text card-title">Site support & optimisation</p> <p>Represent your brand and/or e-commerce service with a <span class="text-highlight"> professional digital presence.</p>
+      </div> 
+      <div class="col-md">
+        <div class="card">
+          <div class="card-header" data-toggle="collapse" data-target="#collapse1">
+            <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
           </div>
-        </div>  
-      </div>
-    </div> 
-    <div class="col-md">
-      <div class="card">
-        <div class="card-header" data-toggle="collapse" data-target="#collapse1">
-          <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
+          <div id="collapse1" class="collapse show">
+            <div class="card-body">
+              <p class="card-text card-title">Site support & optimisation</p> <p>Represent your brand and/or e-commerce service with a <span class="text-highlight"> professional digital presence.</p>
+            </div>
+          </div>  
         </div>
-        <div id="collapse1" class="collapse show">
-          <div class="card-body">
-            <p class="card-text card-title">SEO & copywriting</p> <p>Represent your brand and/or e-commerce service with a <span class="text-highlight"> professional digital presence.</p>
+      </div> 
+      <div class="col-md">
+        <div class="card">
+          <div class="card-header" data-toggle="collapse" data-target="#collapse1">
+            <img class="usp-img" src="/wp-content/uploads/2023/05/wc-and-wp.png">
           </div>
-        </div>  
-      </div>
-    </div> 
+          <div id="collapse1" class="collapse show">
+            <div class="card-body">
+              <p class="card-text card-title">SEO & copywriting</p> <p>Represent your brand and/or e-commerce service with a <span class="text-highlight"> professional digital presence.</p>
+            </div>
+          </div>  
+        </div>
+      </div> 
+  </div>
+</div>
 
 
 <!-- USP grid layout -->
