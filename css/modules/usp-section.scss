@@ -14,6 +14,10 @@
 
 .card-body{
     text-align: center;
+
+    i{
+        color: #484444;
+    }
 }
 
 .card{
@@ -23,7 +27,8 @@
 
 p.card-text.card-title{
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 500;
+    color: #ffbc34;
 }
 
 .card-text a{
