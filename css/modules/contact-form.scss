@@ -35,8 +35,11 @@ h2.display-4.form.intro {
 
 h1.form-h1 {
     width: fit-content;
+    padding-bottom: 20px;
+    margin: 0px 0px 15px 0px!important;
+    padding: 0px!important; 
     text-decoration: underline;
-    text-decoration-color: $highlight;
+    text-decoration-color: #fdbb0a;
 
     @include desktop-up{
         font-size: 3rem;
@@ -45,7 +48,17 @@ h1.form-h1 {
     @include below-desktop{
         font-size: 2.2rem;
     }
+
+    i{
+        color: #fdbb0a;
+        padding-left: 10px;
+    }
 }
+
+.custom-file {
+    display: flex;
+    flex-direction: column;
+  }  
 
 input[type="file"] {
     padding: 20px 0px 10px 0px;
@@ -54,6 +67,7 @@ input[type="file"] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 300px;
 }
 
 .success-message {
@@ -82,6 +96,17 @@ textarea.form-control:focus {
 
 .container.py-5.contact-form {
     background: url(http://dbwppro.local/wp-content/uploads/2023/04/contact-cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @include below-desktop{
+        background-position-y: 50%;
+    }
+
+    @include desktop-up{
+        background-position-x: 50%;
+
+    }
 }
 
 .contact-form {
@@ -91,27 +116,27 @@ textarea.form-control:focus {
         border: none;
         border-bottom: 1px solid $background;
         border-radius: 0px;
+        background-color: #ffffff70!important;
     }
 
     input:focus {
         border-bottom: 1px solid $highlight;
     }
 
-    & * button {
+    * button {
         margin: 20px;
     }
 
-    & label {
-        color: $highlight !important;
-        padding: 10px 0 5px 0;
-        font-weight: 700;
+    label {
+        color: $accent !important;
+        padding: 10px 0 10px 0;
+        font-weight: 500;
     }
 
     h3 {
         color: $highlight;
         padding: 20px 0 20px 0;
     }
-
 }
 
 button.form-button{
@@ -172,7 +197,7 @@ i.fa-solid.fa-square-envelope {
 
 form#contact-form {
     font-family: 'Almarai', sans-serif !important;
-    background: #ffffff9e;
+    background: #ffffffd9!important;
     padding: 30px;
     border-radius: 3px;
 }

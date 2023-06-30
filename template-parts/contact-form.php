@@ -6,7 +6,7 @@
         <div class="col-md-10 mx-auto">
             <form id="contact-form">
             <h1 class="form-h1" data-aos="fade-down">
-            Get in touch!</h1>
+            Get in touch!<i class="fa-solid fa-hand-point-down"></i> </h1>
                 <div class="form-group row one">
                     <div class="col-sm-6 contact-box">
                         <label for="name"></label>
@@ -40,11 +40,9 @@
                 <textarea name="message" class="form-control icon-before" rows="5" required placeholder="Message"></textarea>
                 </span>
                 </div>
-                <div class="form-group">
-                <label for="file"></label>
-                <input type="file" name="file" class="form-control-file choose-button">
-                </div>
-                <div class="col-sm-12 mx-auto text-center">
+                <label for="formFileMultiple" class="form-label">Upload attachment</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple />
+                <div class="form-group text-center">
                 <button type="submit" class="btn btn-primary px-4 mx-auto contact form-button"><p class="text-center">Submit</p></button>
                 </div>
             </form>

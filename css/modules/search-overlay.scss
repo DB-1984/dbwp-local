@@ -87,8 +87,8 @@ $highlight: #fdbb0a;
 		position: absolute;
 		z-index: 99999999;
 		right: 60px;
-		top: 60px;
-		font-size: 26px;
+		top: 50px;
+		font-size: 45px;
 		transition: transform ease-out .2s;
 		transform: rotate(0deg);
 	}
@@ -169,11 +169,7 @@ div#results-container {
 	display: flex;
 	align-items: center;
 
-	i {
-		padding-right: 5px;
-	}
-
-	& a {
+	a {
 		color: $background;
 		font-weight: 400;
 		text-decoration: none;

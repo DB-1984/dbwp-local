@@ -25,7 +25,7 @@
         </div>
         <div id="collapse2" class="collapse show">
           <div class="card-body">
-            <span class="text-hightlight">Site Auditing & Optimisation:</span>
+            <span class="text-hightlight">Support, Site Auditing & Optimisation:</span>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="card">
           <div class="card-body">
-          <h5 class="usp-title">Reach out!</h5>
+          <h5 class="usp-title">Reach Out!</h5>
             <p class="card-text">Get in touch using our contact form, and <span class="text-highlight"><a href="#contact-form-anchor"> let us know what we can help you with</a></span>.</p>
           </div>
         </div>
@@ -59,8 +59,8 @@
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="card">
           <div class="card-body">
-          <h5 class="usp-title">Site Build</h5>
-            <p class="card-text">If you require technical help, we'll take a look a get back to you with a <span class="text-highlight">no-obligation quote</span> (we might require some access to your site's code to do this).</p>
+          <h5 class="usp-title">Services</h5>
+            <p class="card-text">Be it a full site build or technical assistance, we'll get back to you with a <span class="text-highlight">no-obligation quote</span> (we might require some access to your site's code if you have a technical issue).</p>
           </div>
         </div> 
       </div>
@@ -69,16 +69,16 @@
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="card">
           <div class="card-body">
-          <h5 class="usp-title">Step 3 - Agreeing the work</h5>
-          <p class="card-text">If you're happy to proceed we'll ask for a <span class="text-highlight">50% deposit in advance</span>, with the balance due on satisfactory completion of the agreed work. Simple!</p>
+          <h5 class="usp-title">Moving Forward</h5>
+          <p class="card-text">If you're happy to proceed with the word we've quoted you for, then we'll ask for a <span class="text-highlight">50% deposit in advance</span>, with the balance due on satisfactory completion of the agreed work. Simple!</p>
           </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="card">
           <div class="card-body">
-            <h5 class="usp-title">Step 3 - Moving Forward</h5>
-            <p class="card-text">If you're happy to proceed we'll ask for a <span class="text-highlight">50% deposit in advance</span>, with the balance due on satisfactory completion of the agreed work. Simple!</p>
+            <h5 class="usp-title">SEO & Content</h5>
+            <p class="card-text">We also offer SEO services such as <span class="text-highlight">speed optimisation</span>, copywriting and <span class="text-highlight">optimisation for Google SERPs</span>, to help put you and your brand on the map.
           </div>
         </div>
       </div>

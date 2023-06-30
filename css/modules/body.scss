@@ -72,7 +72,7 @@ h1.display-4 {
     color: white !important;
 
     @include bs-mobile {
-        font-size: 60px;
+        font-size: 50px;
         line-height: 4rem !important;
     }
 
@@ -90,13 +90,13 @@ h1.display-4 {
     padding-top:160px; 
     padding-bottom: 80px;
 
-        @include below-desktop{
-            background-position-y: -10%;
-            padding-bottom: 65px;
-            }
+    /*@include below-desktop{
+        background-position-y: -10%;
+        padding-bottom: 65px;
+        }*/
 
-        @media(max-width: 767px){
-            background-position-x: 45%;;
+    @media(max-width: 767px){
+        background-position-x: 45%;;
         }
 }
 
