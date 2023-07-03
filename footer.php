@@ -4,7 +4,7 @@
 <footer class="text-center text-lg-start bg-white text-muted">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-top">
-     <!-- Left -->
+    <!-- Left -->
 
     <!-- Right -->
     <div>
@@ -112,21 +112,15 @@
 
   <!-- Copyright -->
 
-    <div class="col-12">
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-        &copy; <?php echo date_i18n('Y'); ?> DBWP.pro 
-      </div>
+  <div class="col-12">
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      &copy; <?php echo date_i18n('Y'); ?> DBWP.pro 
     </div>
+  </div>
 
   <!-- Copyright -->
-<!-- Popup HTML -->
-<div id="popup-container" style="display: none">
-  <p>By proceeding through this website, you accept the terms of our <span class="text-highlight"><a href="privacy-policy.html">Privacy Policy</a></span></p>
-  <button id="close-btn">Close</button>  
-</div>
-
 </footer>
 <!-- Footer -->
 
 </body>
-</html> 
+</html>

@@ -9,11 +9,8 @@ $accent: #484444;
     margin-top: 50px
 }
 
-footer.text-center.text-lg-start.bg-white.text-muted {
-    margin-top: 100px;
-}
 
-button#close-btn{
+button#close-btn {
     background-color: #fdbb0a;
     border: none;
     padding: 6px;
@@ -27,14 +24,14 @@ div#popup-container {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #1f25282e;
-    padding:10px;
-    
-    a{
+    padding: 10px;
+
+    a {
         font-weight: 500;
         color: $accent;
     }
 
-    p{
-        color: $accent;  
+    p {
+        color: $accent;
     }
 }

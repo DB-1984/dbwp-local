@@ -23,42 +23,26 @@ h2.display-4.form.intro {
     padding: 5px 7px 5px 7px !important
 }
 
-.row {
-    &.one-third.contact{
-        background: white!important;
-    }
-
-    .contact-box {
-        padding-left: 0px !important;
-    }
-}
-
-span.h1-form-bg{
-    background: #202528;
-    display: block;
-    width: fit-content;
-    border-radius: 2px;
+.row.contact-form {
+    padding-left: 0px !important;
 }
 
 h1.form-h1 {
     width: fit-content;
     padding-bottom: 20px;
-    margin: 0px 0px 20px 0px!important;
-    padding: 10px; 
-    text-decoration: underline;
-    border-radius: 3px;
-    text-decoration-color: #fdbb0a;
-    color: white;
+    margin: 0px 0px 20px 0px !important;
+    padding: 10px;
+    color: $background;
 
-    @include desktop-up{
+    @include desktop-up {
         font-size: 3rem;
     }
 
-    @include below-desktop{
+    @include below-desktop {
         font-size: 2.2rem;
     }
 
-    i{
+    i {
         color: #fdbb0a;
         padding-left: 10px;
     }
@@ -67,7 +51,7 @@ h1.form-h1 {
 .custom-file {
     display: flex;
     flex-direction: column;
-  }  
+}
 
 input[type="file"] {
     padding: 20px 0px 10px 0px;
@@ -83,13 +67,14 @@ input[type="file"] {
     color: #000;
     font-size: 1.1rem;
     text-align: center;
-     i {
+
+    i {
         color: $highlight;
         text-align: center;
     }
 }
 
-.image-success img{
+.image-success img {
     padding-bottom: 40px;
 }
 
@@ -103,20 +88,11 @@ textarea.form-control:focus {
     border-bottom: 1px solid $highlight
 }
 
-.container.py-5.contact-form {
+/*.container.py-5.contact-form {
     background: url(http://dbwppro.local/wp-content/uploads/2023/04/contact-cropped.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-
-    @include below-desktop{
-        background-position-y: 50%;
-    }
-
-    @include desktop-up{
-        background-position-x: 50%;
-
-    }
-}
+}*/
 
 .contact-form {
 
@@ -125,7 +101,7 @@ textarea.form-control:focus {
         border: none;
         border-bottom: 1px solid $background;
         border-radius: 0px;
-        background-color: #ffffff70!important;
+        background-color: #ffffff70 !important;
     }
 
     input:focus {
@@ -148,22 +124,26 @@ textarea.form-control:focus {
     }
 }
 
-button.form-button{
-    min-width: 100%!important;
-    p{
+button.form-button {
+    min-width: 100% !important;
+
+    p {
         max-width: fit-content;
         display: inherit;
     }
 }
 
-.container.mx-auto.success{
+.container.mx-auto.success {
     padding: 45px;
 }
 
-.contact-form-columns, .container.mx-auto.success {
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: 90%!important;
+.contact-form-columns,
+.container-fluid.mx-auto.success {
+    background: url('../assets/form-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
 }
 
 input[required]::after {
@@ -184,9 +164,9 @@ i.fa-solid.fa-square-envelope {
     padding-top: 10px;
 }
 
-.form-image{
-    @media(max-width: 767px){
-        margin-top: -25px!important;
+.form-image {
+    @media(max-width: 767px) {
+        margin-top: -25px !important;
     }
 }
 
@@ -206,7 +186,7 @@ i.fa-solid.fa-square-envelope {
 
 form#contact-form {
     font-family: 'Almarai', sans-serif !important;
-    background: #ffffffd9!important;
+    background: #ffffffd9 !important;
     padding: 30px;
     border-radius: 3px;
 }
