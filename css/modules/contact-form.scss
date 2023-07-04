@@ -33,15 +33,9 @@ h1.form-h1 {
     margin: 0px 0px 20px 0px !important;
     padding: 10px;
     color: $background;
-
-    @include desktop-up {
-        font-size: 3rem;
-    }
-
-    @include below-desktop {
-        font-size: 2.2rem;
-    }
-
+    font-weight: 400;
+    font-size: 4.2rem;
+    //text-shadow: 5px 5px 0px #ffbc34 ;
     i {
         color: #fdbb0a;
         padding-left: 10px;
@@ -96,12 +90,16 @@ textarea.form-control:focus {
 
 .contact-form {
 
+    i{
+        padding-right: 6px;
+    }
+
     input:not([type="file"]),
     textarea {
         border: none;
         border-bottom: 1px solid $background;
         border-radius: 0px;
-        background-color: #ffffff70 !important;
+        background-color: #dedfdf !important;
     }
 
     input:focus {
@@ -137,8 +135,7 @@ button.form-button {
     padding: 45px;
 }
 
-.contact-form-columns,
-.container-fluid.mx-auto.success {
+.contact-form-columns {
     background: url('../assets/form-bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
