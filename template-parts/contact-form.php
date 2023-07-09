@@ -56,9 +56,9 @@
               </span>
             </div>
             <div class="row file-upload">
-            <label for="formFileMultiple" class="form-label">Upload attachment</label>
-            <input class="form-control" type="file" id="formFileMultiple" multiple />
-            </row>
+              <label for="formFileMultiple" class="form-label">Upload attachment</label>
+              <input class="form-control" type="file" id="formFileMultiple" multiple />
+            </div>
             <div class="form-group text-center">
               <button type="submit" class="btn btn-primary px-4 mx-auto contact form-button">
                 <p class="text-center">Submit</p>
@@ -74,18 +74,9 @@
 <div class="container-fluid mx-auto success" style="display:none">
   <div class="success-message" data-aos="fade-down">
     <div class="image-success">
-        <img src="wp-content/uploads/2023/06/thank-you-no-bg.png" class="img-fluid">
+      <img src="wp-content/uploads/2023/06/thank-you-no-bg.png" class="img-fluid">
     </div>
     <p><i class="fa-sharp fa-regular fa-thumbs-up"></i> Successfully submitted - <span class="text-highlight">we'll be in touch soon!</span></p>
     <button id="reset-button" class="btn btn-primary mx-auto contact"><p>New Message</p></button>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
