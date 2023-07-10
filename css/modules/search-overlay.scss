@@ -15,6 +15,7 @@ $highlight: #fdbb0a;
 	text-align: center;
 	transition: all ease-in-out .25s;
 	z-index: 9999;
+	font-family: "Work Sans", sans-serif;
 
 	#mk-fullscreen-search-wrapper {
 		display: inline-block;
@@ -162,7 +163,7 @@ a#mk-fullscreen-close-button {
 }
 
 div#results-container {
-	padding: 30px;
+	padding: 40px;
 }
 
 .result {

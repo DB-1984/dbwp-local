@@ -1,5 +1,8 @@
 @import "media-queries";
 
+$highlight: #fdbb0a;
+$accent: #484444;
+
 .row.blog-index {
     margin-top: 175px !important;
 }
@@ -9,5 +12,43 @@
 
     &img {
         border-radius: 4px;
+    }
+}
+
+h1.blog-title {
+    font-weight: 800;
+    padding: 20px;
+    text-align: center;
+
+    @include small-mobile-up {
+        font-size: 5rem;
+        line-height: 4rem
+    }
+
+    @include small-mobile-down {
+        font-size: 2.6rem;
+    }
+
+}
+
+.blog-intro {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.blog {
+    h2.card-title {
+        color: #fdbb0a;
+    }
+
+    .card-body {
+        padding: 40px;
+
+        &:hover {
+            box-shadow: 1px 1px 50px #bdbebf;
+        }
     }
 }
